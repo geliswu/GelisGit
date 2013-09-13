@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"> 
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"> 
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/bootstrap.min.js"></script> 
+  </head>
+  <body>
+  	<div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+	<br>
+	<br>
+	<br>
+	
+	<button class="btn dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button> 
+	<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button> 
+	<button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">Danger <span class="caret"></span></button> 
+	<button class="btn btn-warning dropdown-toggle" data-toggle="dropdown">Warning <span class="caret"></span></button> 
+	<button class="btn btn-success dropdown-toggle" data-toggle="dropdown">Success <span class="caret"></span></button> 
+	<button class="btn btn-info dropdown-toggle" data-toggle="dropdown">Info <span class="caret"></span></button> 
+	<button class="btn btn-inverse dropdown-toggle" data-toggle="dropdown">Inverse <span class="caret"></span></button>
+	<br><br>Progress bars<br>
+	進度條只要外面包一層div給予相對的class，裡面再加一個div並且命名class為bar，width就是進度條的長度，這樣就可以用js來修改width顯示目前的進度狀況
+	<br/>
+	<div class="page-header">
+        <h1>Progress bars</h1>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% Complete</span></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="sr-only">40% Complete (success)</span></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"><span class="sr-only">20% Complete</span></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete (warning)</span></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="sr-only">80% Complete (danger)</span></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-success" style="width: 35%"><span class="sr-only">35% Complete (success)</span></div>
+        <div class="progress-bar progress-bar-warning" style="width: 20%"><span class="sr-only">20% Complete (warning)</span></div>
+        <div class="progress-bar progress-bar-danger" style="width: 10%"><span class='sr-only'>10% Complete (danger)</span></div>
+      </div>  </body>
+</html>
